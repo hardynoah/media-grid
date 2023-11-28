@@ -182,10 +182,6 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  grid-template-areas:
-    "pic5 pic1 pic2 pic3"
-    "pic4 pic0 pic6 pic7"
-    "pic8 pic9 pic10 pic11";
 }
 
 .selector {
@@ -358,17 +354,3 @@ footer > *:last-child {
   .hamburgerMenu {display: none;}
   .figcaption {font-size: 4rem;}
 }
-
-
-#pic0 { grid-area: pic0; }
-#pic1 { grid-area: pic1; }
-#pic2 { grid-area: pic2; }
-#pic3 { grid-area: pic3; }
-#pic4 { grid-area: pic4; }
-#pic5 { grid-area: pic5; }
-#pic6 { grid-area: pic6; }
-#pic7 { grid-area: pic7; }
-#pic8 { grid-area: pic8; }
-#pic9 { grid-area: pic9; }
-#pic10 { grid-area: pic10; }
-#pic11 { grid-area: pic11; }
